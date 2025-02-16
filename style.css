@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  /* Main Header Styling */
+.main-header {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Ensure the logo and sign-up button are spaced apart */
+  align-items: center; /* Vertically align all items */
+  background-color: #7851A9; /* Purple background color */
+  padding: 20px 40px; /* Padding for spacing */
+  color: #fff; /* Text color */
+}
+
+/* Centering the logo and title */
+.main-header .logo-container {
+  display: flex;
+  justify-content: center; /* Center the logo and title horizontally */
+  align-items: center; /* Center the logo and title vertically */
+  flex: 1; /* Make this section take up available space */
+}
+
+.main-header .logo-container .logo {
+  width: 150px; /* Set larger width for logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between logo and title */
+}
+
+/* Large Title Styling */
+.main-header .logo-container .site-title {
+  font-size: 36px; /* Larger font size for the title */
+  font-family: 'Helvetica', sans-serif; /* Font style */
+  font-weight: bold; /* Bold font weight */
+  color: #ffffff; /* White color for the title */
+  margin: 0; /* Remove default margin */
+}
+
+/* Auth Button Styling */
+.main-header .auth-buttons {
+  margin-left: auto; /* Move the button to the right */
+}
+
+.main-header .auth-buttons a {
+  background-color: #fff; /* White background for the button */
+  color: #7851A9; /* Dark purple text color */
+  padding: 10px 20px; /* Padding for the button */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners for button */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.main-header .auth-buttons a:hover {
+  background-color: #7851A9; /* Dark purple on hover */
+  color: #fff; /* White text on hover */
+}
+
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #eee;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Login/Signup Styles */
+  .login-container,
+  .signup-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-container h2,
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  /* Student/Staff Styles */
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Footer Styles */
+  
+footer {
+  background-color: #bf92f6; /* Purple background color */
+  color: #040404; /* Dark text color */
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Add more padding to make the footer taller */
+  width: 100%; /* Full width */
+  position: relative; /* Position it normally without fixed positioning */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 70px; /* Add bottom padding to avoid content hiding behind footer */
+}
+
+.container {
+  padding-bottom: 50px; /* Make sure content doesn't overlap footer */
+}
+
+/* Remove bullets and list styling in footer navigation */
+footer .footer-nav ul {
+  list-style-type: none; /* Ensure no bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+footer .footer-nav ul li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 20px; /* Add spacing between items */
+}
+
+/* Default color: Dark purple for links */
+footer .footer-nav ul li a {
+  color: #6a3b85; /* Dark purple */
+  text-decoration: none; /* No underline */
+  font-size: 14px; /* Small text */
+}
+
+/* Lighter purple when hovering over the links */
+footer .footer-nav ul li a:hover {
+  color: #9b66b3; /* Lighter purple for hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
